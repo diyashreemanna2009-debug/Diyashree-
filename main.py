@@ -1,10 +1,4 @@
 import streamlit as st
-# Title of the app
-st.title(" My First Streamlit App")
-# Adding text
-st.write (" Hello! Creating a simple web applications using streamlit.")
-
-import streamlit as st
 
 st.title("Interactive Streamlit App")
 
