@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Interactive Streamlit App")
 
 #Taking user input
-name=(st.text_input("Enter your name:")
+name=st.text_input("Enter your name:")
 
 #Displaying a message when a button is clicked
     if st.button ("Submit"):
