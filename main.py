@@ -56,8 +56,8 @@ min_val = int(df[metric_choice].min())
 max_val = int(df[metric_choice].max())
 value_range = st.sidebar.slider(
     f"Filter {metric_choice} Range:",
-    min_value=min_val,
-    max_value=max_val,
+    minimum_value=minimum_value,
+    maximum_value=maximum_value,
     value=(min_val, max_value)
 )
 
