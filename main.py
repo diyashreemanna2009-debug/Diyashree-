@@ -17,7 +17,7 @@ import numpy as np
 # 1. Page Configuration
 # CRITICAL: st.set_page_config must be the absolute first Streamlit command called.
 st.set_page_config(
-    page_title="Interactive Data ",
+    page_title="Interactive Data Dashboard ",
     page_icon=" ",
     layout="wide"
 )
